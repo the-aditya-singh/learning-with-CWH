@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>learning with CWH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
 </head>
+
 <body>
-     hey 
+    hey i am here for learning html
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et id quod omnis autem quaerat debitis, velit impedit
+        cupiditate delectus quisquam, consequatur, nam nemo cumque laborum. Distinctio nobis hic dolorem nostrum!
+    </p>
+    <a href="https://www.youtube.com/">youtube</a>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4DfVxVeqk2o?si=ZBcCVpnLrYprxwGy"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <img src="https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+        alt="logo">
+    <ol type="I">
+        <li>
+            1
+        </li>
+        <li>2</li>
+        <li>5</li>
+    </ol>
+    <div>
+        <ul>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+</body>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td colspan="2">vansh</td>
+        <td>bca</td>
+        <td>2</td>
+    </tr>
+    <td>prithvi</td>
+    <td>bcom</td>
+    <td>1</td>
+    </tr>
+</table>
+
+<body>
+    <caption>creating form</caption>
+    <h2>enrolment form</h2>
+    <form action="post">
+        <label for="username">enter your username</label>
+        <input type="text" name="username" id="username" placeholder="enteryour user name" />
+            <select name="session" >
+                <option value="2022-23">2022-23</option>
+                <option value="2023-24">2023-24</option>
+                <option value="2024-25">2024-25</option>
+            </select>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">subscribe</label>
+        </div>
+        <div>
+            <label for="comment">comment section</label>
+            <br><textarea name="comment" cols="52" rows="6" placeholder="comment"></textarea>
+            <input type="reset">
+            <input type="submit">
+        </div>
+    </form>
+
 </body>
 </html>
